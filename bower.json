@@ -1,0 +1,39 @@
+{
+  "name": "angular-schema-form-signature",
+  "main": [
+    "angular-schema-form-signature.min.js"
+  ],
+  "version": "0.1.0",
+  "authors": [
+    "James Guthrie <james@prodigi.ch>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "angular-schema-form",
+    "schema-form",
+    "form",
+    "json",
+    "json-schema",
+    "schema",
+    "add-on",
+    "signature"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "coverage"
+  ],
+  "dependencies": {
+    "angular-schema-form": ">= 0.7",
+    "angular-signature": "git://github.com/JamesGuthrie/angular-signature.git#2way-dataurl"
+  },
+  "devDependencies": {
+    "angular-schema-form": ">= 0.7",
+    "angular-mocks": ">= 1.2"
+  }
+}
