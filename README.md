@@ -1,7 +1,10 @@
 Signature addon
 ===============
 
-Renders a [signature pad](https://github.com/szimek/signature_pad) in a form field.
+This addon renders a [signature pad](https://github.com/szimek/signature_pad)
+in a form field, allowing someone to electronically enter their written
+signature. The resulting signature image is stored as a data URI in the model
+field.
 
 
 Installation
@@ -24,14 +27,23 @@ angular.module('yourModule', ['schemaForm', 'signaure']);
 
 The signature add-on adds a new form type, `signature`.
 
-|  Form Type     |   Becomes    |
-|:---------------|:------------:|
-|  signature   |  a signature widget |
+|   Form Type    |       Becomes       |
+|:---------------|:-------------------:|
+|   signature    |  a signature widget |
 
+### Resulting Value
+
+On submission, your model will contain a data URI representation of the signature
+which was input by the user.
+
+### Validation
+
+The field will be valid as long as something has been entered. This prevents
+someone from not entering a signature.
 
 Form Type Options
--------
-The `signature` form does not yet support any external options, but probably should.
+-----------------
+The `signature` form does not yet support any external options, but it will soon.
 If you would like an option to be present, open an issue or pull request for it.
 
 ### Examples
