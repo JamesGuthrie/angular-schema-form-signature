@@ -3,7 +3,7 @@
   "main": [
     "angular-schema-form-signature.min.js"
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "authors": [
     "James Guthrie <james@prodigi.ch>"
   ],
@@ -11,6 +11,7 @@
     "globals"
   ],
   "keywords": [
+    "angular-schema-form-add-on",
     "angular-schema-form",
     "schema-form",
     "form",
