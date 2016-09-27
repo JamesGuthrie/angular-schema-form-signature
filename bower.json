@@ -1,9 +1,9 @@
 {
   "name": "angular-schema-form-signature",
   "main": [
-    "angular-schema-form-signature.min.js"
+    "angular-schema-form-signature.js"
   ],
-  "version": "0.1.1",
+  "version": "0.1.2",
   "authors": [
     "James Guthrie <james@prodigi.ch>"
   ],
