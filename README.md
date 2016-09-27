@@ -43,17 +43,19 @@ someone from not entering a signature.
 
 Form Type Options
 -----------------
-The `signature` form does not yet support any external options, but it will soon.
+The `signature` form only supports setting the width and height.
 If you would like an option to be present, open an issue or pull request for it.
 
 ### Examples
 
-Here's an example:
+Here's an example form declaration:
 
 ```javascript
 {
   key: 'signature',
-  type: 'signature'
+  type: 'signature',
+  width: 100,
+  height: 100
 }
 ```
 
