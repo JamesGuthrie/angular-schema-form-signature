@@ -43,7 +43,7 @@ someone from not entering a signature.
 
 Form Type Options
 -----------------
-The `signature` form only supports setting the width and height.
+The `signature` form only supports setting the width, height and the text of the reset button.
 If you would like an option to be present, open an issue or pull request for it.
 
 ### Examples
@@ -55,7 +55,8 @@ Here's an example form declaration:
   key: 'signature',
   type: 'signature',
   width: 100,
-  height: 100
+  height: 100,
+  resetButtonText: 'Clear signature'
 }
 ```
 
