@@ -13,5 +13,5 @@
                 schema-validate="form"></signature-pad>
     </div>
     <span class="help-block">{{ (hasError() && errorMessage(schemaError())) || form.description}}</span>
-    <button class="btn" ng-click="clear()">Reset signature</button>
+    <button type="button" class="btn" ng-click="clear()">Reset signature</button>
 </div>
