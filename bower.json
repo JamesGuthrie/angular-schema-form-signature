@@ -31,7 +31,7 @@
   ],
   "dependencies": {
     "angular-schema-form": ">= 0.7",
-    "angular-signature": "git://github.com/JamesGuthrie/angular-signature.git#2way-dataurl"
+    "angular-signature": "https://github.com/legalthings/angular-signature.git#master"
   },
   "devDependencies": {
     "angular-schema-form": ">= 0.7",
