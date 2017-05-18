@@ -22,7 +22,7 @@ is for the [angular signature](https://github.com/legalthings/angular-signature)
 module.
 
 ```js
-angular.module('yourModule', ['schemaForm', 'signaure']);
+angular.module('yourModule', ['schemaForm', 'signature']);
 ```
 
 The signature add-on adds a new form type, `signature`.
