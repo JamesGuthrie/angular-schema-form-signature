@@ -56,7 +56,8 @@ Here's an example form declaration:
   type: 'signature',
   width: 100,
   height: 100,
-  resetButtonText: 'Clear signature'
+  resetButtonText: 'Clear signature',
+  hideResetButton: false
 }
 ```
 
